@@ -1,0 +1,129 @@
+/*
+*
+* Copyright 2013 Leonid Zolotarev
+* Released under the BSD license.
+* http://leoz.net/license
+*
+*/
+
+a {
+	text-decoration: none;
+}
+
+a.project {
+	font-weight: normal !important;
+    color: #4747FF !important;
+}
+
+h2 {
+	padding-left: 7px;
+}
+
+h3 {
+	padding-left: 7px;
+}
+
+/********************************/
+
+.ui-btn-inner {
+    padding: 10px;
+}
+
+.ui-btn {
+  background: #eeeeee;
+  color: #333333;
+  text-align: center;
+  border: 2px solid #333333;
+  padding: 0px;
+  margin: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 400%;
+  text-decoration:none;
+}
+
+.ui-btn:hover {
+  background: #C2DFE3;
+  color: #48687F;
+}
+
+.ui-content {
+    padding: 0px 8px 0px 8px;
+}
+
+.ui-header {
+    padding: 0px 8px 0px 8px;
+    margin-top: 40px;
+}
+
+.ui-header > div:nth-child(1){
+  font-size: 260%;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-align: left;
+}
+
+.ui-footer {
+    padding: 0px 8px 0px 8px;
+}
+
+.ui-footer > div:nth-child(1){
+  font-size: 120%;
+  text-transform: uppercase;
+  padding-left: 7px;
+  padding-right: 7px;
+  text-align: left;
+}
+
+.ui-footer > div:nth-child(2){
+  display: table-cell;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+/********************************/
+
+.box {
+  clear: both;
+  color: #333333;
+  font-weight: bold;
+  font-family: monospace;
+  display: table-cell;
+  vertical-align: middle;
+
+  /* flexbox setup */
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+ 
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  
+  display: box;
+  box-orient: horizontal;
+  box-pack: center;
+  box-align: center;
+}
+
+.box > div {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  box-flex: 1;
+  text-align: center;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/********************************/
+
+
