@@ -7,10 +7,14 @@
 */
 
 /*
-* Init headers and footers
+* Init pages
 */
 
-$(document).ready(function() {
+$(document).on('pagecreate', '#page_index',  function(){
+	load_toolbar();
+});
+
+$(document).on('pagecreate', '#page_projects',  function(){
 	load_toolbar();
 });
 
