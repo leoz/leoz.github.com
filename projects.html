@@ -1,125 +1,282 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-	<meta name="generator" content="LeoZ">
-	<meta name="description" content="LeoZ NET - notes about open source">
-	<meta name="keywords" content="LeoZ, Leonid, Zolotarev, Lumin, Runtime, OS, Prismatic, JS, JavaScript, Helio, Browser, open, source, WebKit, webOS, Mozilla, MicroB, mobile, Linux, Maemo, MeeGo, FreeBSD">
-	<meta name="author" content="Leonid Zolotarev">
+    <meta name="generator" content="LeoZ" />
+    <meta name="description" content="LeoZ NET - notes about open source" />
+    <meta
+      name="keywords"
+      content="LeoZ, Leonid, Zolotarev, VR, MR, XR, Lumin, Runtime, OS, Prismatic, JS, JavaScript, Helio, Browser, open, source, WebKit, webOS, Mozilla, MicroB, mobile, Linux, Maemo, MeeGo, FreeBSD"
+    />
+    <meta name="author" content="Leonid Zolotarev" />
 
-	<title>LeoZ NET</title>
+    <title>LeoZ NET</title>
 
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-	<link rel="stylesheet" href="css/ext/jquery.mobile-1.3.1.css">
-	<link rel="stylesheet" href="css/ext/jquery.mobile.structure-1.3.1.css">
-	<link rel="stylesheet" href="css/leoz_net.css">
-	<link rel="stylesheet" href="css/leoz_net_extra.css">
+    <link href="style/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="style/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="style/bootstrap-social.css" rel="stylesheet" />
+    <link href="style/style.css" rel="stylesheet" />
+  </head>
 
-	<script src="js/lib/jquery-1.10.2.js"></script>
-	<script src="js/lib/jquery.mobile-1.3.1.js"></script>
-	<script src="js/loader.js"></script>
-</head>
-<body>
+  <body class="text-center">
+    <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="main-header mb-auto">
+        <div class="inner">
+          <h1 class="main-header-brand">Projects</h1>
+          <nav class="nav nav-main-header justify-content-center">
+            <a
+              class="nav-link btn btn-social-icon btn-linkedin"
+              href="http://www.linkedin.com/in/zolotarev"
+              ><span class="fab fa-linkedin"></span
+            ></a>
+            <a
+              class="nav-link btn btn-social-icon btn-facebook"
+              href="http://www.facebook.com/leonid.zolotarev"
+              ><span class="fab fa-facebook"></span
+            ></a>
+            <a
+              class="nav-link btn btn-social-icon btn-twitter"
+              href="http://twitter.com/_leoz_"
+              ><span class="fab fa-twitter"></span
+            ></a>
+            <a
+              class="nav-link btn btn-social-icon btn-flickr"
+              href="http://www.flickr.com/photos/_leoz_/"
+              ><span class="fab fa-flickr"></span
+            ></a>
+            <a
+              class="nav-link btn btn-social-icon btn-github"
+              href="http://github.com/leoz"
+              ><span class="fab fa-github"></span
+            ></a>
+            <a
+              class="nav-link btn btn-social-icon btn-pinterest"
+              href="https://www.npmjs.com/~leoz"
+              ><span class="fab fa-npm"></span
+            ></a>
+            <a
+              class="nav-link btn btn-social-icon btn-reddit"
+              href="mailto:leoz.android@gmail.com"
+              ><span class="fa fa-envelope-square"></span
+            ></a>
+          </nav>
+        </div>
+      </header>
 
-<div data-role="page" id="page_projects" data-title="LeoZ | Projects" data-theme="a">
-	<div data-role="header" class="box" data-id="header_main" data-position="fixed" data-tap-toggle="false" data-theme="a">
-		<div style="width: 200px">Projects</div>
-		<div class="box">
-			<div class="social"><a href="http://www.linkedin.com/in/zolotarev"><img class="displayed" src="images/linkedin.png" /></a></div>
-			<div class="social"><a href="http://www.facebook.com/leonid.zolotarev"><img class="displayed" src="images/facebook.png" /></a></div>
-			<div class="social"><a href="http://twitter.com/_leoz_"><img class="displayed" src="images/twitter.png" /></a></div>
-			<div class="social"><a href="http://www.flickr.com/photos/_leoz_/"><img class="displayed" src="images/flickr.png" /></a></div>
-			<div class="social"><a href="http://leoz-net.livejournal.com"><img class="displayed" src="images/livejournal.png" /></a></div>
-			<div class="social"><a href="http://github.com/leoz"><img class="displayed" src="images/github.png" /></a></div>
-			<div class="social"><a href="http://zoleo.users.sourceforge.net"><img class="displayed" src="images/sourceforge.png" /></a></div>
-			<div class="social"><a href="mailto:leoz.android@gmail.com"><img class="displayed" src="images/email.png" /></a></div>
-		</div>
-	</div>
-    <div data-role="content">
-		<h2>The projects I've participated in:</h2>
+      <main role="main" class="inner main-projects text-left">
+        <h5><strong>The projects I've participated in:</strong></h5>
 
-		<h3>Current:</h3>
+        <h6><strong>Current:</strong></h6>
 
-		<ul>
-			<li>Lumin Runtime: <a class="project" title="lumin-runtime-overview" href="https://creator.magicleap.com/learn/guides/lumin-runtime-overview" target="_blank">https://creator.magicleap.com/learn/guides/lumin-runtime-overview
-			</a>
-			</li>
+        <ul>
+          <li>
+            Lumin Runtime:
+            <a
+              class="project"
+              title="lumin-runtime-overview"
+              href="https://creator.magicleap.com/learn/guides/lumin-runtime-overview"
+              target="_blank"
+              >https://creator.magicleap.com/learn/guides/lumin-runtime-overview
+            </a>
+          </li>
 
-			<li>Lumin OS: <a class="project" title="lumin-os-overview" href="https://creator.magicleap.com/learn/guides/lumin-os-overview" target="_blank">https://creator.magicleap.com/learn/guides/lumin-os-overview
-			</a>
-			</li>
+          <li>
+            Lumin OS:
+            <a
+              class="project"
+              title="lumin-os-overview"
+              href="https://creator.magicleap.com/learn/guides/lumin-os-overview"
+              target="_blank"
+              >https://creator.magicleap.com/learn/guides/lumin-os-overview
+            </a>
+          </li>
 
-			<li>Magic Leap One: <a class="project" title="magic-leap-one" href="https://www.magicleap.com/magic-leap-one" target="_blank">https://www.magicleap.com/magic-leap-one
-			</a>
-			</li>
+          <li>
+            Magic Leap One:
+            <a
+              class="project"
+              title="magic-leap-one"
+              href="https://www.magicleap.com/magic-leap-one"
+              target="_blank"
+              >https://www.magicleap.com/magic-leap-one
+            </a>
+          </li>
 
-			<li>Prismatic JS: <a class="project" title="magicleaphelio.com" href="https://magicleaphelio.com" target="_blank">https://magicleaphelio.com
-			</a>
-			</li>
+          <li>
+            Prismatic JS:
+            <a
+              class="project"
+              title="magicleaphelio.com"
+              href="https://magicleaphelio.com"
+              target="_blank"
+              >https://magicleaphelio.com
+            </a>
+          </li>
 
-			<li>Helio Browser: <a class="project" title="helio" href="https://www.magicleap.com/experiences/helio" target="_blank">https://www.magicleap.com/experiences/helio
-			</a>
-			</li>
-		</ul>
+          <li>
+            Helio Browser:
+            <a
+              class="project"
+              title="helio"
+              href="https://www.magicleap.com/experiences/helio"
+              target="_blank"
+              >https://www.magicleap.com/experiences/helio
+            </a>
+          </li>
+        </ul>
 
-		<h3>Past:</h3>
+        <h6><strong>Past:</strong></h6>
 
-		<ul>
-			<li>BlackBerry projects: <a class="project" title="blackberry.github.com" href="http://blackberry.github.com" target="_blank">http://blackberry.github.com
-			</a>
-			</li>
+        <ul>
+          <li>
+            BlackBerry projects:
+            <a
+              class="project"
+              title="blackberry.github.com"
+              href="http://blackberry.github.com"
+              target="_blank"
+              >http://blackberry.github.com
+            </a>
+          </li>
 
-			<li>Isis Browser: <a class="project" title="isis-project.org" href="http://isis-project.org" target="_blank">http://isis-project.org/
-			</a>
-			</li>
+          <li>
+            Isis Browser:
+            <a
+              class="project"
+              title="isis-project.org"
+              href="http://isis-project.org"
+              target="_blank"
+              >http://isis-project.org/
+            </a>
+          </li>
 
-			<li>WebKit: <a class="project" title="www.webkit.org" href="http://www.webkit.org" target="_blank">http://www.webkit.org/
-			</a>
-			</li>
+          <li>
+            WebKit:
+            <a
+              class="project"
+              title="www.webkit.org"
+              href="http://www.webkit.org"
+              target="_blank"
+              >http://www.webkit.org/
+            </a>
+          </li>
 
-			<li>webOS: <a class="project" title="developer.palm.com" href="https://developer.palm.com" target="_blank">https://developer.palm.com
-			</a>
-			</li>
+          <li>
+            webOS:
+            <a
+              class="project"
+              title="developer.palm.com"
+              href="https://developer.palm.com"
+              target="_blank"
+              >https://developer.palm.com
+            </a>
+          </li>
 
-			<li>Mozilla and GtkMozEmbed: <a class="project" title="wiki.mozilla.org/Gtkmozembed" href="http://wiki.mozilla.org/Gtkmozembed" target="_blank">http://wiki.mozilla.org/Gtkmozembed
-			</a>
-			</li>
+          <li>
+            Mozilla and GtkMozEmbed:
+            <a
+              class="project"
+              title="wiki.mozilla.org/Gtkmozembed"
+              href="http://wiki.mozilla.org/Gtkmozembed"
+              target="_blank"
+              >http://wiki.mozilla.org/Gtkmozembed
+            </a>
+          </li>
 
-			<li>MicroB: <a class="project" title="http://en.wikipedia.org/wiki/MicroB" href="http://en.wikipedia.org/wiki/MicroB" target="_blank">http://en.wikipedia.org/wiki/MicroB
-			</a>
-			</li>
+          <li>
+            MicroB:
+            <a
+              class="project"
+              title="http://en.wikipedia.org/wiki/MicroB"
+              href="http://en.wikipedia.org/wiki/MicroB"
+              target="_blank"
+              >http://en.wikipedia.org/wiki/MicroB
+            </a>
+          </li>
 
-			<li>Maemo Browser: <a class="project" title="browser.garage.maemo.org" href="http://browser.garage.maemo.org/" target="_blank">http://browser.garage.maemo.org/
-			</a> and <a class="project" title="garage.maemo.org/projects/browser/" href="https://garage.maemo.org/projects/browser/" target="_blank">https://garage.maemo.org/projects/browser/
-			</a>
-			</li>
+          <li>
+            Maemo Browser:
+            <a
+              class="project"
+              title="browser.garage.maemo.org"
+              href="http://browser.garage.maemo.org/"
+              target="_blank"
+              >http://browser.garage.maemo.org/
+            </a>
+            and
+            <a
+              class="project"
+              title="garage.maemo.org/projects/browser/"
+              href="https://garage.maemo.org/projects/browser/"
+              target="_blank"
+              >https://garage.maemo.org/projects/browser/
+            </a>
+          </li>
 
-			<li>Maemo Browser Extras: <a class="project" title="http://browser-extras.garage.maemo.org/" href="http://browser-extras.garage.maemo.org/" target="_blank">http://browser-extras.garage.maemo.org/
-			</a>
-			</li>
+          <li>
+            Maemo Browser Extras:
+            <a
+              class="project"
+              title="http://browser-extras.garage.maemo.org/"
+              href="http://browser-extras.garage.maemo.org/"
+              target="_blank"
+              >http://browser-extras.garage.maemo.org/
+            </a>
+          </li>
 
-			<li>GTK MDI: <a class="project" title="gtkadi.sourceforge.net" href="http://gtkadi.sourceforge.net/" target="_blank">http://gtkadi.sourceforge.net/
-			</a>
-			</li>
+          <li>
+            GTK MDI:
+            <a
+              class="project"
+              title="gtkadi.sourceforge.net"
+              href="http://gtkadi.sourceforge.net/"
+              target="_blank"
+              >http://gtkadi.sourceforge.net/
+            </a>
+          </li>
 
-			<li>GTK ACX Tool: <a class="project" title="gacxtool.sourceforge.net" href="http://gacxtool.sourceforge.net/" target="_blank">http://gacxtool.sourceforge.net/
-			</a>
-			</li>
+          <li>
+            GTK ACX Tool:
+            <a
+              class="project"
+              title="gacxtool.sourceforge.net"
+              href="http://gacxtool.sourceforge.net/"
+              target="_blank"
+              >http://gacxtool.sourceforge.net/
+            </a>
+          </li>
 
-			<li>FreeBSD ACX: <a class="project" title="dev.kewl.org" href="http://dev.kewl.org/" target="_blank">http://dev.kewl.org/
-			</a>
-			</li>
-		</ul>
+          <li>
+            FreeBSD ACX:
+            <a
+              class="project"
+              title="dev.kewl.org"
+              href="http://dev.kewl.org/"
+              target="_blank"
+              >http://dev.kewl.org/
+            </a>
+          </li>
+        </ul>
+      </main>
+
+      <footer class="main-footer mt-auto">
+        <div class="inner">
+          <span class="main-footer-left">© 2004-2019 LEONID ZOLOTAREV</span>
+          <span class="main-footer-right">
+            <a href="index.html">
+              <img src="img/leoz.gif" class="img-fluid" alt="LeoZ" />
+            </a>
+          </span>
+        </div>
+      </footer>
     </div>
-	<div data-role="footer" class="box" data-id="footer_main" data-position="fixed" data-theme="a">
-		<div>© 2004-2019 Leonid Zolotarev</div>
-		<div><a href="index.html"><img class="displayed" src="images/leoz.gif" /></a></div>
-	</div>
-</div>
-
-</body>
+  </body>
 </html>

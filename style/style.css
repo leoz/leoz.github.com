@@ -1,0 +1,89 @@
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+/*
+ * Project List
+ */
+.main-projects {
+  font-weight: normal;
+  font-size: 84%;
+  line-height: 16px;
+}
+
+.main-projects h5,
+.main-projects h6 {
+  margin-bottom: 13px;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*
+ * Header
+ */
+.main-header {
+  margin-bottom: 2rem;
+}
+
+.nav-main-header .nav-link {
+  padding: 0.25rem 0;
+  font-size: 14px;
+}
+
+.nav-main-header .nav-link + .nav-link {
+  margin-left: 1.8rem;
+}
+
+@media (min-width: 48em) {
+  .main-footer-left,
+  .main-header-brand {
+    float: left;
+  }
+  .main-footer-right,
+  .nav-main-header {
+    float: right;
+  }
+}
+
+.nav-main-header {
+  margin-bottom: 13px;
+}
+
+.main-header-brand {
+  font-weight: bold;
+}
+
+/*
+ * Footer
+ */
+
+.main-footer {
+  padding-top: 0.5rem;
+}
+
+/*
+ * Buttons
+ */
+.btn-xl {
+  font-size: 326%;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid;
+  background-image: url(../img/subtle_dots.png);
+}
+.btn-xl:hover {
+  color: #48687f;
+  background-color: #c2dfe3;
+  background-image: none;
+}
