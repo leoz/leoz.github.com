@@ -10,20 +10,6 @@ body {
   font-size: 110%;
 }
 
-/*
- * Project List
- */
-.main-projects {
-  font-weight: normal;
-  font-size: 84%;
-  line-height: 16px;
-}
-
-.main-projects h5,
-.main-projects h6 {
-  margin-bottom: 13px;
-}
-
 body {
   display: -ms-flexbox;
   display: flex;
@@ -42,7 +28,8 @@ body {
 }
 
 .nav-main-header .nav-link + .nav-link {
-  margin-left: 1.8rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 48em) {
@@ -62,6 +49,7 @@ body {
 
 .main-header-brand {
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 /*
@@ -86,4 +74,22 @@ body {
   color: #48687f;
   background-color: #c2dfe3;
   background-image: none;
+}
+
+/*
+ * Project List
+ */
+.main-projects {
+  font-weight: normal;
+  font-size: 84%;
+  line-height: 16px;
+}
+
+.main-projects h5,
+.main-projects h6 {
+  margin-bottom: 13px;
+}
+
+.main-projects-link {
+  word-wrap: break-word;
 }
